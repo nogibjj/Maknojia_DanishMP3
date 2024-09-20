@@ -4,7 +4,6 @@ from test_lib import (
     test_summary_stat,
     test_bar_chart,
     test_scatterplot,
-    test_mapplot,
 )
 
 
@@ -24,9 +23,6 @@ def run_tests():
 
     print("Testing scatterplot()")
     test_scatterplot()
-
-    print("Testing mapplot()")
-    test_mapplot()
 
     print("Tests ran successfully!")
 

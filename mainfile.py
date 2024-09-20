@@ -1,4 +1,4 @@
-from lib.lib import csv_open, grouping, summary_stat, bar_chart, scatterplot, mapplot
+from lib import csv_open, grouping, summary_stat, bar_chart, scatterplot
 
 
 file_name = "Formula1_2023season_drivers.csv"
@@ -19,6 +19,3 @@ bar_chart(grouped1)
 
 # Scatterplot
 scatterplot(grouped1)
-
-# Mapplot
-mapplot(grouped2)
