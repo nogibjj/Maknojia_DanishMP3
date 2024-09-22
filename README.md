@@ -9,6 +9,22 @@ My project accomplishes the following tasks:
 -- Generate summary statistics (mean, median, standard deviation)
 -- Create at least one data visualization
 
+# Directory Tree
+├── F1Main.jpeg
+├── Formula1_2023season_drivers.csv
+├── Makefile
+├── README.md
+├── barchart.png
+├── lib.py
+├── mainfile.py
+├── mainjupyter.ipynb
+├── requirement.txt
+├── scatter.png
+├── stats.png
+├── test.py
+├── test_file.csv
+└── test_lib.py
+
 ## Data Set
 ![alt text](F1Main.jpeg)
 
