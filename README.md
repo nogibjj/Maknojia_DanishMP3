@@ -10,8 +10,8 @@ My project accomplishes the following tasks:
 -- Create at least one data visualization
 
 # Directory Tree
-'''bash 
 
+```plaintext
 ├── F1Main.jpeg
 ├── Formula1_2023season_drivers.csv
 ├── Makefile
@@ -27,7 +27,7 @@ My project accomplishes the following tasks:
 ├── test_file.csv
 └── test_lib.py
 
-'''
+
 ## Data Set
 ![alt text](F1Main.jpeg)
 
