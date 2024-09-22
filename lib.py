@@ -17,16 +17,18 @@ def grouping(dataframe, group_name, sum_name):
     return grouped
 
 
-def summary_stat(dataframe):
+def summary_stat(dataframe, Points):
     # Get summary statistics
-    description = dataframe.describe()
-    meanpoints = dataframe.mean()
+    description = dataframe.select(Points).describe()
+    meanpoints = dataframe.select(pl.col(Points).mean())
+    # description = dataframe.describe()
+    # meanpoints = dataframe.mean()
     return description, meanpoints
 
 
 # Creating bar chart
 def bar_chart(dataframe):
-    # Extracting Team and Points for plotting
+
     x = dataframe["Team"].to_list()
     y = dataframe["Points"].to_list()
 

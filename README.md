@@ -1,12 +1,6 @@
-# Danish_Maknojia_Individual
+# Danish Maknojia Mini Project 3
 
-[![Lint](https://github.com/nogibjj/Danish_IndividualProject1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Danish_IndividualProject1/actions/workflows/lint.yml)
-
-[![Test](https://github.com/nogibjj/Danish_IndividualProject1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Danish_IndividualProject1/actions/workflows/test.yml)
-
-[![Format](https://github.com/nogibjj/Danish_IndividualProject1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Danish_IndividualProject1/actions/workflows/format.yml)
-
-[![Install](https://github.com/nogibjj/Danish_IndividualProject1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Danish_IndividualProject1/actions/workflows/install.yml)
+[![CI](https://github.com/nogibjj/Maknojia_DanishMP3/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Maknojia_DanishMP3/actions/workflows/cicd.yml)
 
 ## Objectives
 My project accomplishes the following tasks:

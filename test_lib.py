@@ -43,7 +43,7 @@ def test_grouping():
         list(grouped["Country"]) == expected_countries
     ), "Countries should be sorted by summed Points"
 
-    # Check the summed points for each country
+    # Check the  points for each country
     assert (
         grouped.filter(pl.col("Country") == "United Kingdom")
         .select("Points")
@@ -71,12 +71,11 @@ def test_summary_stat():
                   Ferrari,150,Italy
                   McLaren,100,United Kingdom"""
     df = pl.read_csv(StringIO(csv_data))
-    df = df.with_columns(pl.col("Points").cast(pl.Float64))  # Ensure Points is numeric
+    df = df.with_columns(pl.col("Points").cast(pl.Float64))
 
-    stats, mean_points = summary_stat(df)
+    stats, mean_points = summary_stat(df, "Points")
 
     assert stats.shape[0] == 9, "Description should have 8 rows"
-    # assert mean_points == 157.5, "Expected mean of Points to be 157.5"
 
 
 def test_bar_chart():

@@ -11,7 +11,7 @@ grouped1 = grouping(f1_dataframe, "Team", "Points")
 grouped2 = grouping(f1_dataframe, "Country", "Points")
 
 # Print stats summary
-descriptioncsv = summary_stat(grouped1)
+descriptioncsv = summary_stat(grouped1, "Points")
 print(descriptioncsv)
 
 # Bar chart
