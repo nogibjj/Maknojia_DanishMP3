@@ -1,7 +1,3 @@
-"""
-Test File
-"""
-
 from lib import csv_open, grouping, summary_stat, bar_chart, scatterplot
 import polars as pl
 from io import StringIO
@@ -41,7 +37,7 @@ def test_grouping():
     expected_countries = ["United Kingdom", "Italy", "Germany", "Austria"]
     assert (
         list(grouped["Country"]) == expected_countries
-    ), "Countries should be sorted by summed Points"
+    ), "Countries should be sorted by Points"
 
     # Check the  points for each country
     assert (
@@ -93,7 +89,7 @@ def test_bar_chart():
         plot_success = False
         print(f"Bar chart plot failed: {e}")
 
-    assert plot_success, "Bar chart function should not raise exceptions."
+    assert plot_success, "Bar chart function rasied exceptions."
 
 
 def test_scatterplot():
@@ -111,7 +107,7 @@ def test_scatterplot():
         plot_success = False
         print(f"Scatterplot failed: {e}")
 
-    assert plot_success, "Scatterplot function should not raise exceptions."
+    assert plot_success, "Scatterplot function raised exceptions."
 
 
 if __name__ == "__main__":
